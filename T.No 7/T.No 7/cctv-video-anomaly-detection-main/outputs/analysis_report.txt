@@ -1,0 +1,47 @@
+ANOMALY DETECTION ANALYSIS REPORT
+==================================================
+
+DATASET INFORMATION
+--------------------
+Total frames analyzed: 880
+Anomalies detected: 113
+Anomaly rate: 12.84%
+
+THRESHOLD INFORMATION
+--------------------
+Detection threshold: 0.006297
+Mean normal error: 0.003437
+Std normal error: 0.001430
+False positive rate: 0.0391
+
+RECONSTRUCTION ERROR STATISTICS
+------------------------------
+Mean error: 0.007530
+Std error: 0.015735
+Min error: 0.001494
+Max error: 0.164622
+Median error: 0.003416
+
+ERROR PERCENTILES
+---------------
+25th percentile: 0.002476
+50th percentile: 0.003416
+75th percentile: 0.004639
+90th percentile: 0.007560
+95th percentile: 0.039976
+99th percentile: 0.071321
+
+TRAINING INFORMATION
+--------------------
+Training time: 787.7 seconds
+Epochs completed: 15
+Final loss: 0.003442
+Early stopped: False
+
+PERFORMANCE METRICS
+------------------
+AUC Score: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1-Score: 1.0000
+

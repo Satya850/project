@@ -1,0 +1,18 @@
+THRESHOLD SENSITIVITY ANALYSIS
+===================================
+
+Factor | Threshold | Anomaly Rate | Description
+--------------------------------------------------
+ 1.5   | 0.005582 |   17.27%   | Conservative
+ 2.0   | 0.006297 |   12.84%   | Conservative
+ 2.5   | 0.007013 |   10.68%   | Conservative
+ 3.0   | 0.007728 |   10.00%   | Conservative
+ 3.5   | 0.008443 |    9.55%   | Conservative
+ 4.0   | 0.009158 |    9.55%   | Conservative
+
+RECOMMENDATIONS:
+---------------
+• Current factor: 2.5
+• For fewer false alarms: Increase factor (3.0-4.0)
+• For higher sensitivity: Decrease factor (1.5-2.0)
+• Ideal range for surveillance: 10-30% anomaly rate
